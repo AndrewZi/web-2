@@ -4,10 +4,77 @@
 }
 
 body{
-    
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-.header{
-    width: 100%;
-    box-sizing: border-box;
+.menu{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__ul{
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu__li{
+    list-style: none;
+    height: 100%;
+    padding-left: 40px;
+}
+
+.menu__link{
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu__products{
+    color: #05A88D;
+}
+
+.menu__bths{
+    display: flex;
+    width: 33.3%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu__signup{
+    padding: 10px;
+    color:#05A88D;
+    border: 1px solid #05A88D;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu__signup:hover{
+    border: 3px solid #05A88D;
+    padding: 8px;
+}
+
+.menu__login{
+    color:#05A88D;
+    padding: 0 60px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu__logotip{
+    display: flex;
+    width: 33.3%;
+    justify-content: center;
+}
+
+.menu__logo{
+    color: #05A88D;
+    font-size: 24px;
+    text-decoration: none;
 }

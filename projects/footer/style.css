@@ -16,6 +16,73 @@ html,body{
 }
 .footer{
     flex: 0 0 auto;
+    background: #05A88D;
+    padding: 40px;
+    height: 200px;
 }
 
+.footer_top{
+    display: flex;
+    border-bottom: 1px solid white;
+}
 
+.footer_right{
+    width: 100%;
+}
+
+.logo{
+    color: #F1E67D;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.logo:hover{
+    color: yellowgreen;
+}
+
+.text{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 40px 0px;
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.phone{
+    display: flex;
+    justify-content: flex-end;
+    color: #F1E67D;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.phone:hover{
+    color: yellowgreen;
+}
+
+.address{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer_bottom{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 40px;
+}
